@@ -123,6 +123,15 @@ img {
   letter-spacing: -0.02em;
 }
 
+.head-soc-icon {
+  fill: transparent;
+  stroke: #111;
+}
+
+.head-soc-icon:hover {
+  stroke: #fd9222;
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
@@ -143,6 +152,14 @@ img {
 
 .hero-container {
   background-color: rgba(17, 17, 17, 0.6);
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4)
+    ),
+    url(../img/chocolate_main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: cover;
   border-radius: 30px;
   padding: 381px 40px 40px 40px;
 }
@@ -323,6 +340,21 @@ img {
 
 .made-item + .made-item {
   margin-top: 20px;
+}
+
+.made-item::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #111111;
+  border-radius: 50%;
+  border: 1px solid #eceded;
+  flex-shrink: 0;
+}
+
+.made-item:hover::before {
+  background-color: #fd9222;
 }
 
 .made-item-text {
