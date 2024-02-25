@@ -159,7 +159,7 @@ img {
     url(../img/chocolate_main.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  block-size: cover;
+  background-size: cover;
   border-radius: 30px;
   padding: 381px 40px 40px 40px;
 }
@@ -302,6 +302,18 @@ img {
   background: #fff;
   width: calc((100% - 96px) / 4);
   padding: 28px 23px;
+}
+
+.taste-item:nth-child(4n + 1) {
+  background-color: orange;
+}
+
+.taste-item:nth-child(4n + 3) {
+  background-color: black;
+}
+
+.taste-item:nth-child(odd) .taste-subtitle {
+  color: ;
 }
 
 .taste-img {
