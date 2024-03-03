@@ -290,22 +290,24 @@ img {
   max-width: 486px;
 }
 
-.tast-list {
+.taste-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px 32px;
 }
 
 .taste-item {
+  position: relative;
   border-radius: 15px;
   border: 1px solid #fd9222;
   background: #fff;
   width: calc((100% - 96px) / 4);
   padding: 28px 23px;
+  overflow: hidden;
 }
 
 .taste-item:nth-child(4n + 1) {
-  background-color: orange;
+  background-color: rgba(253, 146, 34, 1);
 }
 
 .taste-item:nth-child(4n + 3) {
@@ -332,6 +334,26 @@ img {
 .taste-img {
   margin: 0 auto;
   margin-bottom: 36px;
+}
+
+.ingredient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(17, 17, 17, 1);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border-radius: 15px;
+  padding: 20px 15px;
+  gap: 10px;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+
+.taste-item:hover .ingredient-overlay {
+  transform: translateY(0%);
 }
 
 /**------------------------------*/
