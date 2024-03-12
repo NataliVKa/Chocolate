@@ -658,7 +658,6 @@ img {
 
 .footer-subtitle {
   color: #fff;
-
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
@@ -768,15 +767,15 @@ img {
 /**--------------MODAL WINDOWS---------------*/
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 517px;
   min-height: 794px;
   background-color: #fafafa;
   border-radius: 15px;
-  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
 }
 
 .modal-close-btn {
@@ -787,7 +786,7 @@ img {
   width: 30px;
   height: 30px;
   border: 1px solid #999d9d;
-  background-color: #d6dada;
+  background-color: hwb(180 95% 3%);
   border-radius: 50%;
   padding: 0;
   cursor: pointer;
@@ -799,6 +798,7 @@ img {
 }
 
 .modal-close-btn-icon {
+  stroke: rgba(17, 17, 17, 1);
 }
 
 .modal-title {
@@ -835,15 +835,15 @@ img {
 }
 
 .modal-input:focus {
-  border-color: #fd9222;
+  border-color: rgba(253, 146, 34, 1);
 }
 
 .modal-input:focus::placeholder {
-  color: #fd9222;
+  color: rgba(253, 146, 34, 1);
 }
 
 .modal-input:focus + .modal-icon {
-  stroke: #fd9222;
+  stroke: rgba(253, 146, 34, 1);
 }
 
 .modal-label {
@@ -862,4 +862,61 @@ img {
   transform: translateY(-50%);
   fill: transparent;
   stroke: rgba(64, 64, 64, 1);
+}
+
+.modal-text {
+  width: 100%;
+  height: 137px;
+  border-radius: 13px;
+  border: 1.5px solid rgba(17, 17, 17, 0.25);
+  background-color: transparent;
+  box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
+  outline: transparent;
+  color: #1e1823;
+  padding: 24px 22px;
+  resize: none;
+}
+
+.check-text {
+  color: rgba(64, 64, 64, 0.6);
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+}
+
+.check-text a {
+  color: #fd9222;
+  text-decoration: underline;
+}
+
+.check-text span {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.check-input:checked + .check-text span {
+  background-color: #fd9222;
+  border: none;
+  fill: #ffffff;
+}
+
+.submit-btn {
+  width: 117px;
+  height: 45px;
+  top: 709px;
+  left: 40px;
+  padding: 14px, 40px, 14px, 40px;
+  border-radius: 100px;
+  border: none;
+  gap: 14px;
+  background: rgba(253, 146, 34, 1);
 }
