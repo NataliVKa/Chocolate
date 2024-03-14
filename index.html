@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Chocolate</title>
+    <title>SIMPLY CHOCOLATE</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -478,13 +478,39 @@
           <ul class="sellers-list">
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
-                <img
-                  src="./img/sellers-img-1.jpg"
-                  alt="CHOCOLATE WITH NUTS"
-                  width="368"
-                  height="465"
-                  class="sellers-img"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/sellers-img-1.jpg    1x,
+                      ./img/Sellers-img-1@2x.jpg 2x
+                    "
+                    media="(min-width:
+                    1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/Sellers-tablet-1-min.jpg    1x,
+                      ./img/Sellers-tablet-1@2x-min.jpg 2x
+                    "
+                    media="(min-width:
+                    768px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/Sellers-mobile-min.jpg     1x,
+                      ./img/Sellers-mobile-@2x-min.jpg 2x
+                    "
+                    media="(max-width:
+                    767px)"
+                  />
+                  <img
+                    src="./img/sellers-img-1.jpg"
+                    alt="CHOCOLATE WITH NUTS"
+                    width="368"
+                    height="465"
+                    class="sellers-img"
+                  />
+                </picture>
                 <div class="sellers-text-wrap">
                   <p class="sellers-cover-text">
                     Chocolate with fruit is an unbeatable combination of two of
@@ -497,23 +523,52 @@
               <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
             </li>
             <li class="sellers-item">
-              <img
-                src="./img/sellers-img-2.jpg"
-                alt="CHOCOLATE WITH FRUITS"
-                width="368"
-                height="465"
-                class="sellers-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/Sellers-img-2-min.jpg    1x,
+                    ./img/Sellers-img-2@2x-min.jpg 2x
+                  "
+                  media="(min-width:
+                    1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/Sellers-tablet-1-min.jpg    1x,
+                    ./img/Sellers-tablet-2@2x-min.jpg 2x
+                  "
+                  media="(min-width:
+                    768px)"
+                />
+
+                <img
+                  src="./img/sellers-img-2.jpg"
+                  alt="CHOCOLATE WITH FRUITS"
+                  width="368"
+                  height="465"
+                  class="sellers-img"
+                />
+              </picture>
               <h3 class="sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
             </li>
             <li class="sellers-item">
-              <img
-                src="./img/sellers-img-3.jpg"
-                alt="DARK CHOCOLATE"
-                width="368"
-                height="465"
-                class="sellers-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/Sellers-img-3-min.jpg    1x,
+                    ./img/Sellers-img-3@2x-min.jpg 2x
+                  "
+                  media="(min-width:
+                    1200px)"
+                />
+                <img
+                  src="./img/sellers-img-3.jpg"
+                  alt="DARK CHOCOLATE"
+                  width="368"
+                  height="465"
+                  class="sellers-img"
+                />
+              </picture>
               <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
             </li>
           </ul>

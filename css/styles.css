@@ -43,7 +43,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .link {
@@ -145,6 +145,48 @@ img {
 
 /**-------------------------*/
 /**----------HERO-----------*/
+
+/* .hero {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../img/chocolate_main-mobile-1x-min.jpg);
+  background-size: cover;
+}
+
+@media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
+  .hero {
+    background-image: url(../img/chocolate_main-mobile-@2x-min.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    min-width: 768px;
+    background-image: url(../img/chocolate_main-tablet-min.jpg);
+  }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .hero {
+    background-image: url(../img/chocolate_main-tablet@2x-min.jpg);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    min-width: 1200px;
+    background-image: url(../img/chocolate_main.jpg);
+  }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 1200px) {
+  .hero {
+    min-width: 1200px;
+    background-image: url(../img/chocolate_main@2x-min.jpg);
+  }
+} */
 
 .hero {
   padding-bottom: 80px;
