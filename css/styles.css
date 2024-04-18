@@ -231,7 +231,7 @@ body {
 }
 
 .hero-buy-btn {
-  padding: 14px 40px;
+  padding: 12px 28px;
   color: #fff;
   font-family: inherit;
   font-size: 14px;
@@ -252,7 +252,7 @@ body {
 }
 
 .hero-made-btn {
-  padding: 14px 40px;
+  padding: 12px 28px;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -264,9 +264,9 @@ body {
 
 .hero-down-btn {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 1.29;
+  line-height: 1.2;
   letter-spacing: -0.03em;
   margin-left: auto;
 }
