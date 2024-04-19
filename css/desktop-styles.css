@@ -79,7 +79,6 @@ img {
 
 
 .container {
-  width: 100%;
   max-width: 375px;
   padding: 0 16px;
   margin: 0 auto;
@@ -230,8 +229,8 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  /* border-radius: 30px;
-  padding: 395px 20px 20px 20px; */
+    border-radius: 30px;
+  /* padding: 395px 20px 20px 20px; */
 }
 
 @media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
@@ -322,12 +321,14 @@ img {
   padding-left: 18px;
   padding-right: 18px;
   gap: 88px;
+  flex-wrap: wrap;
 }
 
 .features-item {
   width: calc((100% - 88px * 2) / 3);
   position: relative;
 }
+
 
 .features-item:not(:last-child)::after {
   content: "";
@@ -361,6 +362,7 @@ img {
 
 .taste {
   padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .taste-title {
