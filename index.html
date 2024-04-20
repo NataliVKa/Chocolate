@@ -340,14 +340,12 @@
                 class="taste-img"
               />
               <h3 class="taste-subtitle">COCONUT OIL</h3>
-              <div class="ingredient-overlay">
-              
-                  <h3 class="taste-subtitle-ingredient">COC0NUT 0IL</h3>
-                  <div class="ingredient-btns">
-                    <button class="teste-btn" type="button">coconut oil</button>
-                    <button class="teste-btn-benefits" type="button">the benefits</button>
-                  </div>
-                
+                  <div class="ingredient-overlay">
+                    <h3 class="taste-subtitle-ingredient">COCONUT OIL</h3>
+                    <div class="ingredient-btns">
+                      <button class="taste-btn" type="button">coconut oil</button>
+                      <button class="taste-btn-benefits" type="button">the benefits</button>
+                    </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
                   Coconut oil is a vegetable oil obtained from the pulp of the
@@ -364,17 +362,43 @@
 
       <!--================  How it is made?  ================-->
 
-      <!-- <section class="made" id="made">
+      <section class="made" id="made">
         <div class="container">
           <h2 class="made-title section-title">How IT’S <span>made?</span></h2>
           <div class="made-wrap">
-            <img
-              src="./img/made-img.jpg"
-              alt="liquid chocolate"
-              width="600"
-              height="400"
-              class="made-img"
+            <picture>
+              <source
+              srcset="
+                ./img/made-img.jpg   1x,
+                ./img/made@2x-min.jpg 2x
+              "
+              media="(min-width:
+              1200px)"
             />
+            <source
+              srcset="
+                ./img/made-tablet-1x-min.jpg  1x,
+                ./img/made-tablet-@2x-min.jpg 2x
+              "
+              media="(min-width:
+              768px)"
+            />
+            <source
+              srcset="
+                ./img/made-mobile-1x-min.jpg  1x,
+                ./img/made-mobile-@2x-min.jpg 2x
+              "
+              media="(max-width:
+              767px)"
+            />
+              <img
+                src="./img/made-img.jpg"
+                alt="liquid chocolate"
+                width="600"
+                height="400"
+                class="made-img"
+              />
+            </picture>
             <div class="made-content">
               <h3 class="made-subtitle">
                 Try our chocolates today and discover the perfect balance of
@@ -415,11 +439,11 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!--=================  Product Section  =================-->
 
-      <!-- <section class="products">
+      <section class="products">
         <div class="container">
           <h2 class="products-title section-title">
             Our <span>PRODUCTS</span>
@@ -523,11 +547,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--================ Sellers Section ================-->
 
-      <!-- <section class="sellers">
+      <section class="sellers">
         <div class="container">
           <h2 class="sellers-title section-title"><span>TOP</span> Sellers</h2>
           <ul class="sellers-list">
@@ -628,7 +652,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--=============   loved Section  =============-->
 
