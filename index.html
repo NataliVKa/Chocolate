@@ -32,7 +32,7 @@
             />
           </a>
           <ul class="header-menu-list">
-            <li class="header=menu-item">
+            <li class="header-menu-item">
               <a href="" class="header-menu-link">Home</a>
             </li>
             <li class="header-menu-item">
@@ -84,14 +84,83 @@
         <!--------========== open-btn ==========-------->
 
         <button class="menu-open-btn" type="button">
-          <svg class="menu-open-btn-icon" width="24" height="24" aria-label="mobile menu open icon">
+          <svg
+            class="menu-open-btn-icon"
+            width="24"
+            height="24"
+            aria-label="mobile menu open icon"
+          >
             <use href="./img/symbol-defs.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
+      <div class="mob-menu">
+        <div class="mob-menu-top">
+          <button class="menu-close-btn" type="button">
+            <svg
+              class="menu-close-btn-icon"
+              width="24"
+              height="24"
+              aria-label="mobile menu close icon"
+            >
+              <use href="./img/symbol-defs.svg#icon-x-close"></use>
+            </svg>
+          </button>
+          <nav class="mob-nav">
+            <ul class="mob-menu-list">
+              <li class="mob-menu-item">
+                <a href="" class="header-menu-link">Home</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="header-menu-link">How it’s made?</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="header-menu-link">Chocolate is loved</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="mob-soc-list">
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="24" height="24" class="mob-soc-icon">
+                <use href="./img/symbol-defs.svg#icon-instagram-ch-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="24" height="24" class="mob-soc-icon">
+                <use href="./img/symbol-defs.svg#icon-facebook-ch-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="24" height="24" class="mob-soc-icon">
+                <use href="./img/symbol-defs.svg#icon-twitter-ch-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="main">
-      
       <!-------------------Hero Section  --------------->
 
       <section class="hero">
@@ -103,7 +172,12 @@
           <div class="hero-buttons">
             <button type="button" class="hero-buy-btn">Buy now</button>
             <a href="" class="hero-made-btn">How it’s made</a>
-            <a href="" class="hero-down-btn">scroll down</a>
+            <a href="" class="hero-down-btn"
+              >scroll down
+              <svg class="hero-scroll-down" width="22" height="22">
+                <use href="./img/symbol-defs.svg#icon-fi-rr-angle"></use>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -111,7 +185,7 @@
       <!------------------ features Section ------------------>
 
       <section class="features">
-        <div class="container">
+        <div class="container features-container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-item">
@@ -148,7 +222,7 @@
                 <svg class="features-icons" width="32" height="32">
                   <use href="./img/symbol-defs.svg#icon-spoon"></use>
                 </svg>
-              </div> 
+              </div>
               <h3 class="features-subtitle">Own production</h3>
               <p class="features-item-text">
                 We take pride in our own production process, ensuring that every
@@ -215,7 +289,9 @@
                 <h3 class="taste-subtitle-ingredient">MILK</h3>
                 <div class="ingredient-btns">
                   <button class="taste-btn" type="button">milk</button>
-                  <button class="taste-btn-benefits" type="button">the benefits</button>
+                  <button class="taste-btn-benefits" type="button">
+                    the benefits
+                  </button>
                 </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
@@ -241,7 +317,9 @@
                 <h3 class="taste-subtitle-ingredient">NUTS</h3>
                 <div class="ingredient-btns">
                   <button class="taste-btn" type="button">nuts</button>
-                  <button class="taste-btn-benefits" type="button">the benefits</button>
+                  <button class="taste-btn-benefits" type="button">
+                    the benefits
+                  </button>
                 </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
@@ -264,10 +342,16 @@
               />
               <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
               <div class="ingredient-overlay">
-                <h3 class="taste-subtitle-ingredient">SEMI - SWEET CHOCOLATE</h3>
+                <h3 class="taste-subtitle-ingredient">
+                  SEMI - SWEET CHOCOLATE
+                </h3>
                 <div class="ingredient-btns">
-                  <button class="taste-btn" type="button">sweet chocolate</button>
-                  <button class="taste-btn-benefits" type="button">the benefits</button>
+                  <button class="taste-btn" type="button">
+                    sweet chocolate
+                  </button>
+                  <button class="taste-btn-benefits" type="button">
+                    the benefits
+                  </button>
                 </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
@@ -293,7 +377,9 @@
                 <h3 class="taste-subtitle-ingredient">CACAO</h3>
                 <div class="ingredient-btns">
                   <button class="taste-btn" type="button">cacao</button>
-                  <button class="taste-btn-benefits" type="button">the benefits</button>
+                  <button class="taste-btn-benefits" type="button">
+                    the benefits
+                  </button>
                 </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
@@ -319,7 +405,9 @@
                 <h3 class="taste-subtitle-ingredient">RASPBERRY</h3>
                 <div class="ingredient-btns">
                   <button class="taste-btn" type="button">raspberry</button>
-                  <button class="taste-btn-benefits" type="button">the benefits</button>
+                  <button class="taste-btn-benefits" type="button">
+                    the benefits
+                  </button>
                 </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
@@ -340,12 +428,14 @@
                 class="taste-img"
               />
               <h3 class="taste-subtitle">COCONUT OIL</h3>
-                  <div class="ingredient-overlay">
-                    <h3 class="taste-subtitle-ingredient">COCONUT OIL</h3>
-                    <div class="ingredient-btns">
-                      <button class="taste-btn" type="button">coconut oil</button>
-                      <button class="taste-btn-benefits" type="button">the benefits</button>
-                    </div>
+              <div class="ingredient-overlay">
+                <h3 class="taste-subtitle-ingredient">COCONUT OIL</h3>
+                <div class="ingredient-btns">
+                  <button class="taste-btn" type="button">coconut oil</button>
+                  <button class="taste-btn-benefits" type="button">
+                    the benefits
+                  </button>
+                </div>
                 <ul class="taste-list"></ul>
                 <p class="taste-text">
                   Coconut oil is a vegetable oil obtained from the pulp of the
@@ -368,33 +458,30 @@
           <div class="made-wrap">
             <picture>
               <source
-              srcset="
-                ./img/made-img.jpg   1x,
-                ./img/made@2x-min.jpg 2x
-              "
-              media="(min-width:
+                srcset="./img/made-img.jpg 1x, ./img/made@2x-min.jpg 2x"
+                media="(min-width:
               1200px)"
-            />
-            <source
-              srcset="
-                ./img/made-tablet-1x-min.jpg  1x,
-                ./img/made-tablet-@2x-min.jpg 2x
-              "
-              media="(min-width:
+              />
+              <source
+                srcset="
+                  ./img/made-tablet-1x-min.jpg  1x,
+                  ./img/made-tablet-@2x-min.jpg 2x
+                "
+                media="(min-width:
               768px)"
-            />
-            <source
-              srcset="
-                ./img/made-mobile-1x-min.jpg  1x,
-                ./img/made-mobile-@2x-min.jpg 2x
-              "
-              media="(max-width:
+              />
+              <source
+                srcset="
+                  ./img/made-mobile-1x-min.jpg  1x,
+                  ./img/made-mobile-@2x-min.jpg 2x
+                "
+                media="(max-width:
               767px)"
-            />
+              />
               <img
                 src="./img/made-img.jpg"
                 alt="liquid chocolate"
-                width="600"
+                width="614"
                 height="400"
                 class="made-img"
               />
@@ -587,7 +674,7 @@
                     alt="CHOCOLATE WITH NUTS"
                     width="368"
                     height="465"
-                    class="sellers-img"
+                    class="sellers-img-1"
                   />
                 </picture>
                 <div class="sellers-text-wrap">
@@ -605,7 +692,7 @@
               <picture>
                 <source
                   srcset="
-                    ./img/sellers-img-2-min.jpg   1x,
+                    ./img/sellers-img-2-min.jpg    1x,
                     ./img/Sellers-img-2@2x-min.jpg 2x
                   "
                   media="(min-width:
@@ -656,7 +743,7 @@
 
       <!--=============   loved Section  =============-->
 
-      <!-- <section class="loved">
+      <section class="loved">
         <div class="container">
           <h2 class="loved-title section-title">
             <span>chocolate</span> is loved
@@ -734,11 +821,11 @@
           <button type="button" class="loved-btn">Leave a review</button>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!--================= Footer Section =================-->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer-top">
           <p class="footer-text">
@@ -820,19 +907,19 @@
           </nav>
           <form class="footer-form">
             <label>
-            <input
-              type="email"
-              name="footer-email"
-              class="footer-input"
-              placeholder="Enter your email"
-              aria-label="footer input"
-            />
+              <input
+                type="email"
+                name="footer-email"
+                class="footer-input"
+                placeholder="Enter your email"
+                aria-label="footer input"
+              />
             </label>
             <button type="submit" class="footer-form-btn">Subscribe</button>
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!--================ backdrop ================-->
 
